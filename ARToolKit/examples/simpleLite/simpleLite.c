@@ -529,9 +529,9 @@ static void Display(void)
 int main(int argc, char** argv)
 {
 	char glutGamemode[32];
-	char cparam_name[] = "Data/camera_para.dat";
+	char cparam_name[] = "Data/camera_para2.dat";
 	char vconf[] = "";
-	char patt_name[]  = "Data/calib.patt";
+	char patt_name[]  = "Data/hiro.patt";
 	
     //
 	// Library inits.

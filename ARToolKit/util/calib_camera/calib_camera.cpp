@@ -390,6 +390,7 @@ static void calib(void)
     arParamDisp(&param);
 
     l = 0;
+    ARdouble err_sum = 0;
     for( k = 0; k < capturedImageNum; k++ ) {
         for( i = 0; i < 3; i++ ) {
             ((float*)(rotationVector->data.ptr))[i] = ((float*)(rotationVectors->data.ptr + rotationVectors->step*k))[i];
@@ -423,8 +424,14 @@ static void calib(void)
             }
         }
         err = sqrt(err/(chessboardCornerNumX*chessboardCornerNumY));
+        
         ARLOG("Err[%2d]: %f[pixel]\n", k+1, err);
+        err_sum += err;
     }
+    
+    ARLOG("Err Avg: %f[pixel]\n", k+1, err_sum / ARdouble(k+1));
+
+    
     saveParam( &param );
 
     cvReleaseMat(&objectPoints);
@@ -482,6 +489,7 @@ static void saveParam( ARParam *param )
     if (!getcwd(cwd, MAXPATHLEN)) ARLOGe("Unable to read current working directory.\n");
     
     nameOK = 0;
+    
     ARLOG("Filename[%s]: ", SAVE_FILENAME);
     if (fgets(name, MAXPATHLEN, stdin) != NULL) {
         
