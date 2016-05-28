@@ -253,7 +253,7 @@ static void mainLoop(void)
         err = arGetTransMatSquare(ar3DHandle, &(markerInfo[k]), patt_width, patt_trans);
     }
     sprintf(errValue, "err = %f", err);
-    glColor3f(0.0f, 1.0f, 0.0f);
+    glColor3f(0.0f, 0.0f, 0.0f);
     argDrawStringsByIdealPos(fps, 10, ysize-30);
     argDrawStringsByIdealPos(errValue, 10, ysize-60);
     //ARLOG("err = %f\n", err);
@@ -377,7 +377,7 @@ static void draw( ARdouble trans[3][4] )
     GLfloat   mat_flash_shiny[] = {50.0f};
     GLfloat   light_position[]  = {100.0f,-200.0f,200.0f,0.0f};
     GLfloat   light_ambi[]      = {0.1f, 0.1f, 0.1f, 0.0f};
-    GLfloat   light_color[]     = {1.0f, 1.0f, 1.0f, 0.0f};
+    GLfloat   light_color[]     = {0.0f, 0.0f, 0.0f, 0.0f};
     
     argDrawMode3D(vp);
     glClearDepth( 1.0 );

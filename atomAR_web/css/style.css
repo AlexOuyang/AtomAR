@@ -1,0 +1,131 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #202B33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'museo-sans-rounded', sans-serif;
+  font-size: 3em;
+  position: relative;
+  height: 4em;
+  width: intrinsic;
+}
+
+header h1 {
+  letter-spacing: 0.2em;
+  font-weight: 200;
+  color: #00FFD2;
+}
+
+header #atom_text {
+/*   color: #faebd7; */
+}
+
+.hide {
+  visibility: hidden;
+  position: relative;
+  left: 9999px;
+  display: none;
+}
+
+#svg {
+  position: relative;
+  right: 0em;
+  bottom: 0em;
+  height: 5.5em;
+  width: 4em;
+}
+
+path#ring,
+path#second,
+path#third,
+circle#base {
+  stroke: #faebd7;  /* Atom ring color */
+  stroke-width: 4px;
+  fill: none;
+  position: absolute;
+}
+
+circle#base {
+  stroke: #00BD9C; /* Atom base color */
+  stroke-width: 6px;
+}
+
+#second {
+  -webkit-transform: translateX(-70px) translateY(150px) rotate(-65deg);
+  -moz-transform: translateX(-70px) translateY(150px) rotate(-65deg);
+  -ms-transform: translateX(-70px) translateY(150px) rotate(-65deg);
+  -o-transform: translateX(-70px) translateY(150px) rotate(-65deg);
+  transform: translateX(-70px) translateY(150px) rotate(-65deg);
+}
+
+#third {
+  -webkit-transform: translateX(20px) translateY(276px) rotate(-125deg);
+  -moz-transform: translateX(20px) translateY(276px) rotate(-125deg);
+  -ms-transform: translateX(20px) translateY(276px) rotate(-125deg);
+  -o-transform: translateX(20px) translateY(276px) rotate(-125deg);
+  transform: translateX(20px) translateY(276px) rotate(-125deg);
+}
+
+#ring,
+#second,
+#third,
+#second,
+#third {
+  stroke-dasharray: 280;
+}
+
+.animate {
+  -webkit-animation: dash 4s linear;
+  -moz-animation: dash 4s linear;
+  animation: dash 4s linear;
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 0;
+  }
+  to {
+    stroke-dashoffset: 560;
+  }
+}
+
+@-moz-keyframes dash {
+  from {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 0;
+  }
+  to {
+    stroke-dashoffset: 560;
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 0;
+  }
+  to {
+    stroke-dashoffset: 560;
+  }
+}

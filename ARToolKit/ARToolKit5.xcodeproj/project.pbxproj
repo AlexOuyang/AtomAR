@@ -691,6 +691,8 @@
 		4AF79D8C0A26A3FB00E900EC /* arMultiGetTransMatStereo.c in Sources */ = {isa = PBXBuildFile; fileRef = 78BB3E6008E482F400D7CA2D /* arMultiGetTransMatStereo.c */; };
 		4AFF1AE00BE0091300CF3E69 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 78BB3F5208E483CB00D7CA2D /* Data */; };
 		4AFF1AF30BE00BBE00CF3E69 /* optical.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF1AF20BE00BB400CF3E69 /* optical.c */; };
+		565B904C1CF85A8000049AED /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 565B904A1CF85A8000049AED /* test.cpp */; };
+		565B904D1CF85A8000049AED /* test.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 565B904B1CF85A8000049AED /* test.hpp */; };
 		7868FEC108E88F0E0089F090 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 78BB3F5208E483CB00D7CA2D /* Data */; };
 		7868FEEC08E88FBC0089F090 /* stereo.c in Sources */ = {isa = PBXBuildFile; fileRef = 78BB3F0E08E4837000D7CA2D /* stereo.c */; };
 		78BB3F9008E4870000D7CA2D /* arLabelingSubDBI3C.c in Sources */ = {isa = PBXBuildFile; fileRef = 78BB3DF508E482F400D7CA2D /* arLabelingSubDBI3C.c */; };
@@ -2821,7 +2823,6 @@
 		4AEC877F100F5E7400F8F318 /* videoLinux1394CamV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoLinux1394CamV1.h; sourceTree = "<group>"; };
 		4AEC8780100F5E7400F8F318 /* videoLinux1394CamV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoLinux1394CamV2.h; sourceTree = "<group>"; };
 		4AF0ADE0102C3DA5000D0207 /* videoLinux1394Cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoLinux1394Cam.h; sourceTree = "<group>"; };
-		4AF5A7800A3D2436006D1350 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; usesTabs = 1; };
 		4AF79D5F0A269BC900E900EC /* config.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		4AF79D840A26A39500E900EC /* libARMulti.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libARMulti.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AFBF6D61B5DC800005F0B53 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
@@ -2829,6 +2830,9 @@
 		4AFF1AF00BE00BB400CF3E69 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; usesTabs = 1; };
 		4AFF1AF10BE00BB400CF3E69 /* optical-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "optical-Info.plist"; sourceTree = "<group>"; };
 		4AFF1AF20BE00BB400CF3E69 /* optical.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = optical.c; sourceTree = "<group>"; };
+		565B904A1CF85A8000049AED /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		565B904B1CF85A8000049AED /* test.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test.hpp; sourceTree = "<group>"; };
+		565B904E1CF9333300049AED /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		7868FEA508E880230089F090 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; usesTabs = 1; };
 		7868FEA908E880230089F090 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; usesTabs = 1; };
 		7868FEAA08E880230089F090 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; usesTabs = 1; };
@@ -3617,9 +3621,11 @@
 		4A15ECD209E35C5800159C62 /* simpleLite */ = {
 			isa = PBXGroup;
 			children = (
+				565B904E1CF9333300049AED /* Makefile.in */,
 				4A15ECD309E35C8600159C62 /* simpleLite.c */,
-				4AF5A7800A3D2436006D1350 /* Makefile.in */,
 				4A15ED0F09E35D5300159C62 /* simpleLite-Info.plist */,
+				565B904A1CF85A8000049AED /* test.cpp */,
+				565B904B1CF85A8000049AED /* test.hpp */,
 			);
 			path = simpleLite;
 			sourceTree = "<group>";
@@ -5625,6 +5631,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565B904D1CF85A8000049AED /* test.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7134,6 +7141,7 @@
 				78BB3FE408E4882C00D7CA2D /* vHouse.c in Sources */,
 				78BB3FE508E4882C00D7CA2D /* vInnerP.c in Sources */,
 				78BB3FE608E4882C00D7CA2D /* vTridiag.c in Sources */,
+				565B904C1CF85A8000049AED /* test.cpp in Sources */,
 				4A7B8D150EC77EC500D1A3F5 /* arLabelingSubDBI3C565.c in Sources */,
 				4A7B8D160EC77EC500D1A3F5 /* arLabelingSubDBI3CA4444.c in Sources */,
 				4A7B8D2C0EC77EC500D1A3F5 /* arLabelingSubEWR3CA5551.c in Sources */,
