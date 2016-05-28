@@ -1,4 +1,4 @@
-package com.AR.atomAR.common;
+package com.AR.atomAR.utils;
 
 public class RenderConstants {
 

@@ -1,5 +1,4 @@
 // Based on http://blog.shayanjaved.com/2011/03/13/shaders-android/
-// from Shayan Javed
 
 uniform mat4 uMVPMatrix;
 uniform mat4 uMVMatrix;

@@ -2,7 +2,7 @@
  * This is a shader object
  */
 
-package com.AR.atomAR.common;
+package com.AR.atomAR.utils;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -13,9 +13,7 @@ import android.opengl.GLES20;
 import android.util.Log;
 
 public class RenderProgram {
-	/************************
-	 * PROPERTIES
-	 **********************/
+
 	private static final String TAG = "RenderProgram";
 	
 	// program/vertex/fragment handles
@@ -24,9 +22,7 @@ public class RenderProgram {
 	// The shaders
 	private String mVertexS, mFragmentS;
 
-	/************************
-	 * CONSTRUCTOR(S)
-	 *************************/
+
 	// Takes in Strings directly
 	public RenderProgram(String vertexS, String fragmentS) {
 		setup(vertexS, fragmentS);
@@ -76,9 +72,6 @@ public class RenderProgram {
 	}
 
 
-	/**************************
-	 * OTHER METHODS
-	 *************************/
 
 	/** 
 	 * Sets up everything
@@ -161,9 +154,7 @@ public class RenderProgram {
 		return shader;
 	}
 
-	/***************************
-	 * GET/SET
-	 *************************/
+
 	public int getProgram() {
 		return mProgram;
 	}

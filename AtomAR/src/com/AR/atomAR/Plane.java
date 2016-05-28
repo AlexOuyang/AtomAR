@@ -4,7 +4,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
-import com.AR.atomAR.common.RenderConstants;
+import com.AR.atomAR.utils.RenderConstants;
 
 import android.opengl.GLES20;
 

@@ -3,9 +3,9 @@ package com.AR.atomAR;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import com.AR.atomAR.common.RenderConstants;
-import com.AR.atomAR.common.FPSCounter;
-import com.AR.atomAR.common.RenderProgram;
+import com.AR.atomAR.utils.RenderConstants;
+import com.AR.atomAR.utils.FPSCounter;
+import com.AR.atomAR.utils.RenderProgram;
 
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;

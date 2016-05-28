@@ -1,6 +1,4 @@
 // Based on http://blog.shayanjaved.com/2011/03/13/shaders-android/
-// from Shayan Javed
-// And dEngine source from Fabien Sanglard
 
 //precision highp float;
 precision mediump float;
