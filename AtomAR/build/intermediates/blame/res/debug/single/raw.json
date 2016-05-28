@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_depth_map.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/depth_tex_f_depth_map.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/f_with_simple_shadow.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/f_with_simple_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_depth_map.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/depth_tex_f_depth_map.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_v_with_shadow.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/depth_tex_v_with_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_with_simple_shadow.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/depth_tex_f_with_simple_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_with_pcf_shadow_dynamic_bias.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/depth_tex_f_with_pcf_shadow_dynamic_bias.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/f_with_pcf_shadow.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/f_with_pcf_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_with_simple_shadow_dynamic_bias.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/depth_tex_f_with_simple_shadow_dynamic_bias.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/f_with_simple_shadow.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/f_with_simple_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/f_with_pcf_shadow.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/f_with_pcf_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/f_with_simple_shadow_dynamic_bias.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/f_with_simple_shadow_dynamic_bias.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/f_depth_map.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/f_depth_map.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_with_pcf_shadow.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/depth_tex_f_with_pcf_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/f_with_simple_shadow_dynamic_bias.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/f_with_simple_shadow_dynamic_bias.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/v_with_shadow.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/v_with_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_with_simple_shadow.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/depth_tex_f_with_simple_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/v_with_shadow.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/v_with_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_with_pcf_shadow_dynamic_bias.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/depth_tex_f_with_pcf_shadow_dynamic_bias.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/f_with_pcf_shadow_dynamic_bias.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/f_with_pcf_shadow_dynamic_bias.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/v_depth_map.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/v_depth_map.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/f_with_pcf_shadow_dynamic_bias.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/f_with_pcf_shadow_dynamic_bias.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_with_pcf_shadow.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/depth_tex_f_with_pcf_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_v_depth_map.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/depth_tex_v_depth_map.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_f_with_simple_shadow_dynamic_bias.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/depth_tex_f_with_simple_shadow_dynamic_bias.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/raw/f_depth_map.glsl",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/raw/f_depth_map.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_v_with_shadow.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/depth_tex_v_with_shadow.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/depth_tex_v_depth_map.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/depth_tex_v_depth_map.glsl"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/raw/v_depth_map.glsl",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/raw/v_depth_map.glsl"
+    }
+]

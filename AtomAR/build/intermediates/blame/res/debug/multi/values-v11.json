@@ -1,0 +1,54 @@
+[
+    {
+        "outputFile": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 304
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 304
+                    }
+                }
+            }
+        ]
+    }
+]

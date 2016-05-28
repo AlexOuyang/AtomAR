@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/drawable-mdpi-v4/shadow_ic_launcher.png",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/drawable-mdpi/shadow_ic_launcher.png"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/drawable-mdpi-v4/shadow_ic_launcher.png",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/drawable-mdpi/shadow_ic_launcher.png"
+    },
+    {
+        "merged": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/chenxingouyang/AndroidStudioProjects/AtomAR/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/drawable-mdpi/ic_launcher.png"
+    }
+]

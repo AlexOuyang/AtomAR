@@ -53,14 +53,14 @@ path#ring,
 path#second,
 path#third,
 circle#base {
-  stroke: #faebd7;  /* Atom ring color */
+  stroke: #00FFD2;  /* Atom ring color */
   stroke-width: 4px;
   fill: none;
   position: absolute;
 }
 
 circle#base {
-  stroke: #00BD9C; /* Atom base color */
+  stroke: #00FFD2; /* Atom base color */
   stroke-width: 6px;
 }
 

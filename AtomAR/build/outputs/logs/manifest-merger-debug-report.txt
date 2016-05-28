@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:3:5-28
+	android:versionName
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml
+		INJECTED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml
+		INJECTED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:8:9-34
+uses-feature#0x00020000
+ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:11:5-78
+	android:glEsVersion
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:11:19-51
+	android:required
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:11:52-75
+application
+ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:13:5-27:19
+	android:label
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:17:9-56
+activity#com.AR.atomAR.ShadowsActivity
+ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:19:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/AndroidManifest.xml:24:27-74

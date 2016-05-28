@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AtomAR</string>
+    <string name="bias_type_constant">Constant bias</string>
+    <string name="bias_type_dynamic">Dynamic bias</string>
+    <string name="change_bias_type">Bias type</string>
+    <string name="change_depth_map_size">Depth map size</string>
+    <string name="change_shadow_type">Shadow type</string>
+    <string name="depth_map_size_0">0.5 Width X 0.5 Height)</string>
+    <string name="depth_map_size_1">1 Width X 1 Height)</string>
+    <string name="depth_map_size_2">1.5 Width X 1.5 Height)</string>
+    <string name="depth_map_size_3">2 Width X 2 Height)</string>
+    <string name="shadow_type_pcf">PCF shadow</string>
+    <string name="shadow_type_simple">Simple shadow</string>
+    <string name="user_hint">Change render settings in menu</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
