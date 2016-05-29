@@ -4,31 +4,25 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="690466483478066"
-    verifier="METHOD_DELETED" >
+    timestamp="7039448356283" >
 
     <task
         name="javac"
-        duration="341" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="29" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
     <artifact
-        location="/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-        type="DEX" />
+        location="/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/outputs/apk/AtomAR-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="690186934151427" >
-        <artifact
-            location="/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/outputs/apk/AtomAR-debug.apk"
-            type="MAIN" />
-    </build>
     <build
         timestamp="690466483478066"
         verifier="METHOD_DELETED" >

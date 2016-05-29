@@ -14,7 +14,7 @@ import android.opengl.Matrix;
 import android.os.SystemClock;
 import android.util.Log;
 
-public class ShadowsRenderer implements GLSurfaceView.Renderer {
+public class SceneRenderer implements GLSurfaceView.Renderer {
 
     private static final String TAG = "ShadowsRenderer";
 
@@ -56,6 +56,8 @@ public class ShadowsRenderer implements GLSurfaceView.Renderer {
     public void setShadowType(float mShadowType) {
         this.mShadowType = mShadowType;
     }
+
+
 
     /**
      * Handles to vertex and fragment shader programs
@@ -172,7 +174,7 @@ public class ShadowsRenderer implements GLSurfaceView.Renderer {
 
     private Plane mPlane;
 
-    public ShadowsRenderer(final Activity shadowsActivity) {
+    public SceneRenderer(final Activity shadowsActivity) {
         mShadowsActivity = shadowsActivity;
     }
 

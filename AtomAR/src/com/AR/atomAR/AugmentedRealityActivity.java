@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 public class AugmentedRealityActivity extends Activity {
 
-    private ShadowsGLSurfaceView mGLView;
-    private ShadowsRenderer renderer;
+    private SceneGLSurfaceView mGLView;
+    private SceneRenderer renderer;
 
 
     @Override
@@ -19,12 +19,12 @@ public class AugmentedRealityActivity extends Activity {
 
         // Create a GLSurfaceView instance and set it
         // as the ContentView for this Activity
-        mGLView = new ShadowsGLSurfaceView(this);
+        mGLView = new SceneGLSurfaceView(this);
 
         // Create an OpenGL ES 2.0 context.
         mGLView.setEGLContextClientVersion(2);
 
-        renderer = new ShadowsRenderer(this);
+        renderer = new SceneRenderer(this);
         mGLView.setRenderer(renderer);
 
         setContentView(mGLView);
