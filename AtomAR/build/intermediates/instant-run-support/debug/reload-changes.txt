@@ -1,0 +1,3 @@
+CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/ShadowsRenderer$override.class
+CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/MainActivity$override.class
+CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

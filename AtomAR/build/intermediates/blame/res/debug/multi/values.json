@@ -7,75 +7,47 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 43,
-                    "endOffset": 94
+                    "endColumn": 57,
+                    "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 43,
-                        "endOffset": 95
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/dimens.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 99,
-                    "endColumn": 60,
-                    "endOffset": 155
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 1,
-                        "startOffset": 452,
-                        "endColumn": 57,
-                        "endOffset": 508
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/dimens.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 160,
-                    "endColumn": 58,
-                    "endOffset": 214
+                    "startOffset": 169,
+                    "endColumn": 43,
+                    "endOffset": 208
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 513,
-                        "endColumn": 58,
-                        "endOffset": 567
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 219,
-                    "endColumn": 54,
+                    "startOffset": 213,
+                    "endColumn": 60,
                     "endOffset": 269
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 1,
-                        "startOffset": 166,
-                        "endColumn": 51,
-                        "endOffset": 216
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
@@ -83,212 +55,157 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 274,
-                    "endColumn": 64,
-                    "endOffset": 334
+                    "endColumn": 58,
+                    "endOffset": 328
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 1,
-                        "startOffset": 218,
-                        "endColumn": 61,
-                        "endOffset": 278
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 339,
-                    "endColumn": 58,
-                    "endOffset": 393
+                    "startOffset": 333,
+                    "endColumn": 54,
+                    "endOffset": 383
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 1,
-                        "startOffset": 280,
-                        "endColumn": 55,
-                        "endOffset": 334
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 398,
-                    "endColumn": 68,
-                    "endOffset": 462
+                    "startOffset": 388,
+                    "endColumn": 64,
+                    "endOffset": 448
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 572,
-                        "endColumn": 68,
-                        "endOffset": 636
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 467,
-                    "endColumn": 64,
-                    "endOffset": 527
+                    "startOffset": 453,
+                    "endColumn": 58,
+                    "endOffset": 507
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 1,
-                        "startOffset": 638,
-                        "endColumn": 61,
-                        "endOffset": 698
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 532,
+                    "startOffset": 512,
                     "endColumn": 68,
-                    "endOffset": 596
+                    "endOffset": 576
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 1,
-                        "startOffset": 700,
-                        "endColumn": 65,
-                        "endOffset": 764
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 601,
+                    "startOffset": 581,
                     "endColumn": 64,
-                    "endOffset": 661
+                    "endOffset": 641
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 1,
-                        "startOffset": 766,
-                        "endColumn": 61,
-                        "endOffset": 826
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 666,
-                    "endColumn": 54,
-                    "endOffset": 716
+                    "startOffset": 646,
+                    "endColumn": 68,
+                    "endOffset": 710
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 400,
-                        "endColumn": 54,
-                        "endOffset": 450
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 721,
-                    "endColumn": 60,
-                    "endOffset": 777
+                    "startOffset": 715,
+                    "endColumn": 64,
+                    "endOffset": 775
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 339,
-                        "endColumn": 60,
-                        "endOffset": 395
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 782,
-                    "endColumn": 68,
-                    "endOffset": 846
+                    "startOffset": 780,
+                    "endColumn": 54,
+                    "endOffset": 830
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 100,
-                        "endColumn": 68,
-                        "endOffset": 164
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 851,
-                    "endLine": 21,
-                    "endColumn": 12,
-                    "endOffset": 1137
+                    "startOffset": 835,
+                    "endColumn": 60,
+                    "endOffset": 891
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 186,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 472
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1142,
-                    "endLine": 24,
-                    "endColumn": 12,
-                    "endOffset": 1297
+                    "startOffset": 896,
+                    "endColumn": 68,
+                    "endOffset": 960
                 },
                 "from": {
-                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 510,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 665
-                    }
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 965,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1251
+                },
+                "from": {
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1256,
+                    "endLine": 26,
+                    "endColumn": 12,
+                    "endOffset": 1411
+                },
+                "from": {
+                    "file": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/values/styles.xml"
                 }
             }
         ]

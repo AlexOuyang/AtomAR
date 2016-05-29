@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="app_name">AtomAR</string>
     <string name="bias_type_constant">Constant bias</string>
     <string name="bias_type_dynamic">Dynamic bias</string>
