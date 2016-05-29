@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fc6950a4b51081f0b9e7ea86cfb4e3e5a4d010cf">
+        <dex dex="/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_49c45378ead6bb57defa4490a5d68aee19e228ab/classes.dex" />
+    </item>
+
+</items>
