@@ -1,6 +1,14 @@
 [
     {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/menu/global.xml",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/menu/global.xml"
+    },
+    {
         "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/menu/opengl_shadow_menu.xml",
         "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/menu/opengl_shadow_menu.xml"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/menu/main.xml"
     }
 ]

@@ -1,6 +1,14 @@
 [
     {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/layout/drawer_main2.xml",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/layout/drawer_main2.xml"
+    },
+    {
         "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/layout/fragment_main.xml",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/layout/fragment_main.xml"
     }
 ]

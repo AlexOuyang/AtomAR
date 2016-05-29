@@ -4,7 +4,15 @@
         "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/drawable-xhdpi/shadow_ic_launcher.png"
     },
     {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/drawable-xhdpi-v4/drawer_shadow.9.png",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/drawable-xhdpi/drawer_shadow.9.png"
+    },
+    {
         "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
         "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_drawer.png",
+        "source": "/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/res/drawable-xhdpi/ic_drawer.png"
     }
 ]

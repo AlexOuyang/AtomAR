@@ -2,6 +2,9 @@
 <resources>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
     <string name="app_name">AtomAR</string>
     <string name="bias_type_constant">Constant bias</string>
     <string name="bias_type_dynamic">Dynamic bias</string>
@@ -12,8 +15,14 @@
     <string name="depth_map_size_1">1 Width X 1 Height)</string>
     <string name="depth_map_size_2">1.5 Width X 1.5 Height)</string>
     <string name="depth_map_size_3">2 Width X 2 Height)</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="shadow_type_pcf">PCF shadow</string>
     <string name="shadow_type_simple">Simple shadow</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
     <string name="user_hint">Change render settings in menu</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

@@ -1,135 +1,112 @@
 package com.AR.atomAR;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.widget.Toast;
 
-public class MainActivity extends Activity {
+import android.app.ActionBar;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.support.v4.widget.DrawerLayout;
 
-    private ShadowsGLSurfaceView mGLView;
-    private ShadowsRenderer renderer;
+public class MainActivity extends Activity
+        implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
+    /**
+     * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
+     */
+    private NavigationDrawerFragment mNavigationDrawerFragment;
+
+    /**
+     * Used to store the last screen title. For use in {@link #restoreActionBar()}.
+     */
+    private CharSequence mTitle;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        // Create a GLSurfaceView instance and set it
-        // as the ContentView for this Activity
-        mGLView = new ShadowsGLSurfaceView(this);
+        mNavigationDrawerFragment = (NavigationDrawerFragment)
+                getFragmentManager().findFragmentById(R.id.navigation_drawer);
+        mTitle = getTitle();
 
-        // Create an OpenGL ES 2.0 context.
-        mGLView.setEGLContextClientVersion(2);
-
-        renderer = new ShadowsRenderer(this);
-        mGLView.setRenderer(renderer);
-
-        setContentView(mGLView);
-
-        Toast.makeText(this, R.string.user_hint, Toast.LENGTH_SHORT).show();
-    }
-
-    /*
-	 * Creates the menu and populates it via xml
-	 */
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.opengl_shadow_menu, menu);
-        return true;
+        // Set up the drawer.
+        mNavigationDrawerFragment.setUp(
+                R.id.navigation_drawer,
+                (DrawerLayout) findViewById(R.id.drawer_layout));
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public void onNavigationDrawerItemSelected(int position) {
+        // update the main content by replacing fragments
+        FragmentManager fragmentManager = getFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
+                .commit();
+    }
 
-        switch (item.getItemId()) {
-            case R.id.shadow_type_simple:
-                renderer.setShadowType(0.0f);
-                item.setChecked(true);
-                return true;
-            case R.id.shadow_type_pcf:
-                renderer.setShadowType(1.0f);
-                item.setChecked(true);
-                return true;
-            case R.id.bias_type_constant:
-                renderer.setBiasType(0.0f);
-                item.setChecked(true);
-                return true;
-            case R.id.bias_type_dynamic:
-                renderer.setBiasType(1.0f);
-                item.setChecked(true);
-                return true;
-            case R.id.depth_map_size_0:
-                renderer.setShadowMapRatio(0.5f);
-
-                // we need to run opengl calls on GLSurface thread
-                mGLView.queueEvent(new Runnable() {
-                    @Override
-                    public void run() {
-                        renderer.generateShadowFBO();
-                    }
-                });
-
-                item.setChecked(true);
-                return true;
-            case R.id.depth_map_size_1:
-                renderer.setShadowMapRatio(1.0f);
-
-                // we need to run opengl calls on GLSurface thread
-                mGLView.queueEvent(new Runnable() {
-                    @Override
-                    public void run() {
-                        renderer.generateShadowFBO();
-                    }
-                });
-
-                item.setChecked(true);
-                return true;
-            case R.id.depth_map_size_2:
-                renderer.setShadowMapRatio(1.5f);
-
-                // we need to run opengl calls on GLSurface thread
-                mGLView.queueEvent(new Runnable() {
-                    @Override
-                    public void run() {
-                        renderer.generateShadowFBO();
-                    }
-                });
-
-                item.setChecked(true);
-                return true;
-            case R.id.depth_map_size_3:
-                renderer.setShadowMapRatio(2.0f);
-
-                // we need to run opengl calls on GLSurface thread
-                mGLView.queueEvent(new Runnable() {
-                    @Override
-                    public void run() {
-                        renderer.generateShadowFBO();
-                    }
-                });
-
-                item.setChecked(true);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+    public void onSectionAttached(int number) {
+        switch (number) {
+            case 1:
+                mTitle = getString(R.string.title_section1);
+                break;
+            case 2:
+                mTitle = getString(R.string.title_section2);
+                break;
+            case 3:
+                mTitle = getString(R.string.title_section3);
+                break;
         }
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        mGLView.onPause();
+    public void restoreActionBar() {
+        ActionBar actionBar = getActionBar();
+        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
+        actionBar.setDisplayShowTitleEnabled(true);
+        actionBar.setTitle(mTitle);
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mGLView.onResume();
-    }
+    /**
+     * A placeholder fragment containing a simple view.
+     */
+    public static class PlaceholderFragment extends Fragment {
+        /**
+         * The fragment argument representing the section number for this
+         * fragment.
+         */
+        private static final String ARG_SECTION_NUMBER = "section_number";
 
+        public PlaceholderFragment() {
+        }
+
+        /**
+         * Returns a new instance of this fragment for the given section
+         * number.
+         */
+        public static PlaceholderFragment newInstance(int sectionNumber) {
+            PlaceholderFragment fragment = new PlaceholderFragment();
+            Bundle args = new Bundle();
+            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+            fragment.setArguments(args);
+            return fragment;
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            return rootView;
+        }
+
+        @Override
+        public void onAttach(Activity activity) {
+            super.onAttach(activity);
+            ((MainActivity) activity).onSectionAttached(
+                    getArguments().getInt(ARG_SECTION_NUMBER));
+        }
+    }
 
 }
