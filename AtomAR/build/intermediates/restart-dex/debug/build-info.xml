@@ -4,7 +4,7 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="687707296794275" >
+    timestamp="688513187991668" >
 
     <task
         name="javac"
@@ -19,11 +19,11 @@
         name="verifier"
         duration="0" />
 
-    <build timestamp="687683151566936" >
+    <build timestamp="688224641444903" >
         <artifact
             location="/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/outputs/apk/AtomAR-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="687707296794275" />
+    <build timestamp="688513187991668" />
 
 </instant-run>

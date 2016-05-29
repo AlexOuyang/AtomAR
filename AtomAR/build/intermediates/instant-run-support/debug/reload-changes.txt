@@ -1,3 +1,7 @@
-CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/ShadowsRenderer$override.class
-CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/MainActivity$override.class
+CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/R$override.class
+CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/R$style$override.class
+CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/R$menu$override.class
+CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/R$string$override.class
 CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/R$raw$override.class
+CHANGED,/Users/chenxingouyang/Documents/Github/AtomAR/AtomAR/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/AR/atomAR/R$layout$override.class
