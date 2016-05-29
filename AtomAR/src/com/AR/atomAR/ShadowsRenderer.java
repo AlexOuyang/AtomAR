@@ -199,13 +199,13 @@ public class ShadowsRenderer implements GLSurfaceView.Renderer {
         mCube = new Cube(new float[]{0.0f, 0.0f, 0.0f}, 3.0f, new float[]{0.0f, 0.0f, 1.0f, 1.0f});
 
         //4 small cubes on the ground plane
-        mSmallCube0 = new Cube(new float[]{-4.0f, -3.9f, 4.0f}, 2.0f, new float[]{1.0f, 0.0f, 0.0f, 1.0f});
-        mSmallCube1 = new Cube(new float[]{4.0f, -3.9f, 4.0f}, 2.0f, new float[]{0.0f, 1.0f, 0.0f, 1.0f});
-        mSmallCube2 = new Cube(new float[]{4.0f, -3.9f, -4.0f}, 2.0f, new float[]{0.0f, 1.0f, 1.0f, 1.0f});
-        mSmallCube3 = new Cube(new float[]{-4.0f, -3.9f, -4.0f}, 2.0f, new float[]{1.0f, 0.0f, 1.0f, 1.0f});
+        mSmallCube0 = new Cube(new float[]{-4.0f, -2f, 4.0f}, 2.0f, new float[]{1.0f, 0.0f, 0.0f, 1.0f});
+        mSmallCube1 = new Cube(new float[]{4.0f, -2f, 4.0f}, 2.0f, new float[]{0.0f, 1.0f, 0.0f, 1.0f});
+        mSmallCube2 = new Cube(new float[]{4.0f, -2f, -4.0f}, 2.0f, new float[]{0.0f, 1.0f, 1.0f, 1.0f});
+        mSmallCube3 = new Cube(new float[]{-4.0f, -2f, -4.0f}, 2.0f, new float[]{1.0f, 0.0f, 1.0f, 1.0f});
 
         //ground
-        mPlane = new Plane();
+        mPlane = new Plane(new float[]{-4.0f, -4f, 4.0f});
 
         //Set view matrix from eye position
         Matrix.setLookAtM(mViewMatrix, 0,
